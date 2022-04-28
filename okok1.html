@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+<body>
+<head>
+<meta charset="utf-8">
+<title>Position</title>
+<style>
+
+div.static {
+position:static;
+border: 3px solid #73AD21;
+}
+
+div.relativ {
+position: relative;
+left: 50px;
+border: 3px solid #73AD21;
+width: 300px;
+}
+
+div.relativa {
+position: relative;
+width: 400px;
+height: 200px;
+border: 3px solid #73AD21;
+}
+
+div.absoluta {
+position: absolute;
+top: 80px;
+right: 0;
+width: 200px;
+height: 100px;
+border: 3px solid # 73AD21;
+}
+
+div.fixo {
+position: fixed;
+bottom:0;
+right:0;
+border: 3px solid #73AD21;
+width: 300px;
+}
+
+body {
+background: brown;
+}
+
+div.sticky {
+position: stick;
+top:0;
+padding: 5px;
+background-color: #CAe8Ca;
+border: 3px solid # 73AD21;
+}
+
+.foto {
+background:lightblue;
+pading: 5px;
+float: left;
+margin: 10px;
+}
+
+.centralizar{
+width: 1320px;
+margin: auto;
+}
+
+.clear{
+clear: both;
+}
+
+p. formatar {
+text-align: justify;
+margin: 20px;
+}
+
+</style>
+<body>
+
+<h1> Position: static</h1>
+<p> Um elemento com posição static não esta posicionado de maneira especial, isto é, estará sempre posicionado de acordo com o fluxo normal da página</p>
+<div class="static">
+<p> este elemento foi posicionado com static</p>
+</div>
+
+<h1> Position: relative</h1>
+<p> O elemento é posicionado...</p>
+<div class="relative">
+</div>
+
+<div class="static">
+<p> este elemento foi posicionado com static</p>
+</div> 
+<div class="foto">
+<img src="flores_campo.jpg">
+<p> flores do campo</p>
+</div>
+<h1> Position: absolute</h1>
+<p> Um elemento com posição absoluta...</p>
+<div class="relativa">
+<p> este elemento  tem posição relativa</p> 
+</div>
+</div>
+<h1> position: fixed</h1>
+<p> um elemento com posição fixed...</p>
+<div class="fixo">
+<p> este elemento esta posicionado fixo</p>
+</div>
+<p> posiçao fixo</p>
+<h1> position: stick</h1>
+<div class="stick"> utilizando sticky </div>
+<p> stick</p>
+
+<div class="foto">
+<img src="poppies.jpg">
+<p>puppies</p>
+</div>
+<div class="foto">
+<img src="tree.jpg">
+<p>tree</p>
+</div>
+<div class="foto">
+<img src="summerfield.jpg">
+<p>summer field</p>
+
+</body>
+</html> 
